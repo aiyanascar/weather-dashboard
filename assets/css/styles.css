@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-section {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.weather-section {
+    width: 70%;
+    padding: 20px;
+}
+
+#search-history {
+    margin-top: 20px;
+}
+
+#search-history button {
+    display: block;
+    margin-top: 10px;
+}
+
+#current-weather, #forecast {
+    margin-top: 20px;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
